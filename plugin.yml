@@ -1,0 +1,14 @@
+name: Hediye
+main: aydin\Hediye
+api: 4.0.0
+version: 1
+author: aydin
+
+commands:
+ hediye:
+  description: "Hediye Menüsü"
+  permission: "hediye.menu"
+  
+permissions:
+ hediye.menu:
+  default: true
