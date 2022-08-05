@@ -94,4 +94,3 @@ if($player->getInventory()->getItemInHand()->getId() != 0){
     $form->sendToPlayer($oyuncu);
   }
 }
-//canAddItem Eklenicek unutma//
