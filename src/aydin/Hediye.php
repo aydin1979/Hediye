@@ -51,7 +51,7 @@ if($player->getInventory()->getItemInHand()->getId() != 0){
       
         $d3 = $data[3];
       
-      if($player->getName() == $oyuncu->getName()){
+      if($player->getName() != $oyuncu->getName()){
         
       $not = $data[3];
       $miktar = $item->getCount();
